@@ -1,0 +1,78 @@
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #f8c6b9, #b7c0ee);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    animation: bg-gradient 10s ease-in-out infinite alternate;
+  }
+  
+  @keyframes bg-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f5f7fa;
+    color: #444;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #4269e2;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-button:hover {
+    background-color: #3b5bdb;
+  }
+  
+  .form-button:active {
+    background-color: #364fc7;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .form-container {
+      padding: 20px;
+    }
+    .form-button {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
